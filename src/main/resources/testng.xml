@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners><listener class-name="utilities.util_testlistener" /></listeners>
+	<test name="Initialize"><classes><class name="utilities.util_dataprovidermgr"/></classes></test> 
+	
+    <test name="TC01.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC0101"/></methods></class></classes></test>
+    <test name="TC01.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC0102"/></methods></class></classes></test>	
+	<test name="TC01.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC0103"/></methods></class></classes></test>
+	<test name="TC01.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC0104"/></methods></class></classes></test>
+	<test name="TC01.05"><classes><class name="testcases.TestCases"><methods><include name="test_TC0105"/></methods></class></classes></test>
+	<test name="TC01.06"><classes><class name="testcases.TestCases"><methods><include name="test_TC0106"/></methods></class></classes></test>  
+ 	<test name="TC02.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC0201"/></methods></class></classes></test>
+	<test name="TC02.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC0202"/></methods></class></classes></test>
+	<test name="TC02.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC0203"/></methods></class></classes></test>
+	<test name="TC02.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC0204"/></methods></class></classes></test> 
+	<test name="TC03.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC0301"/></methods></class></classes></test> 
+	<test name="TC03.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC0302"/></methods></class></classes></test>
+	<test name="TC03.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC0303"/></methods></class></classes></test>
+	<test name="TC03.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC0304"/></methods></class></classes></test>    
+	<test name="TC04.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC0401"/></methods></class></classes></test>
+	<test name="TC04.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC0402"/></methods></class></classes></test>
+	<test name="TC04.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC0403"/></methods></class></classes></test>
+	<test name="TC04.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC0404"/></methods></class></classes></test>   
+	<test name="TC05.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC0501"/></methods></class></classes></test>
+	<test name="TC05.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC0502"/></methods></class></classes></test>
+	<test name="TC05.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC0503"/></methods></class></classes></test>
+	<test name="TC05.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC0504"/></methods></class></classes></test>
+	<test name="TC05.05"><classes><class name="testcases.TestCases"><methods><include name="test_TC0505"/></methods></class></classes></test>
+	<test name="TC05.06"><classes><class name="testcases.TestCases"><methods><include name="test_TC0506"/></methods></class></classes></test>   
+	<test name="TC06.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC0601"/></methods></class></classes></test>
+	<test name="TC06.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC0602"/></methods></class></classes></test>
+	<test name="TC06.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC0603"/></methods></class></classes></test>
+	<test name="TC06.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC0604"/></methods></class></classes></test>   
+	<test name="TC07.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC0701"/></methods></class></classes></test> 	
+	<test name="TC07.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC0702"/></methods></class></classes></test>
+	<test name="TC07.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC0703"/></methods></class></classes></test>
+	<test name="TC07.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC0704"/></methods></class></classes></test>        
+	<test name="TC08.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC0801"/></methods></class></classes></test> 	
+ 	<test name="TC08.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC0802"/></methods></class></classes></test>
+	<test name="TC08.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC0803"/></methods></class></classes></test>
+	<test name="TC08.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC0804"/></methods></class></classes></test>  
+	<test name="TC09.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC0901"/></methods></class></classes></test>
+	<test name="TC09.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC0902"/></methods></class></classes></test>
+	<test name="TC09.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC0903"/></methods></class></classes></test>
+	<test name="TC09.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC0904"/></methods></class></classes></test>
+	<test name="TC09.05"><classes><class name="testcases.TestCases"><methods><include name="test_TC0905"/></methods></class></classes></test>
+	<test name="TC09.06"><classes><class name="testcases.TestCases"><methods><include name="test_TC0906"/></methods></class></classes></test> 
+	<test name="TC10.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1001"/></methods></class></classes></test>
+	<test name="TC10.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1002"/></methods></class></classes></test>
+	<test name="TC10.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1003"/></methods></class></classes></test>
+	<test name="TC10.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1004"/></methods></class></classes></test>   
+    <test name="TC11.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1101"/></methods></class></classes></test> 
+	<test name="TC11.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1102"/></methods></class></classes></test>
+	<test name="TC11.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1103"/></methods></class></classes></test>
+	<test name="TC11.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1104"/></methods></class></classes></test>      
+	<test name="TC12.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1201"/></methods></class></classes></test> 
+	<test name="TC12.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1202"/></methods></class></classes></test>
+	<test name="TC12.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1203"/></methods></class></classes></test> 
+	<test name="TC12.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1204"/></methods></class></classes></test>     
+	<test name="TC13.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1301"/></methods></class></classes></test>
+	<test name="TC13.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1302"/></methods></class></classes></test>
+	<test name="TC13.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1303"/></methods></class></classes></test> 
+	<test name="TC13.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1304"/></methods></class></classes></test>
+	<test name="TC13.05"><classes><class name="testcases.TestCases"><methods><include name="test_TC1305"/></methods></class></classes></test>
+	<test name="TC13.06"><classes><class name="testcases.TestCases"><methods><include name="test_TC1306"/></methods></class></classes></test> 
+	<test name="TC14.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1401"/></methods></class></classes></test>
+	<test name="TC14.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1402"/></methods></class></classes></test>
+	<test name="TC14.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1403"/></methods></class></classes></test>
+	<test name="TC14.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1404"/></methods></class></classes></test>   
+    <test name="TC15.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1501"/></methods></class></classes></test>
+	<test name="TC15.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1502"/></methods></class></classes></test>
+	<test name="TC15.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1503"/></methods></class></classes></test> 
+	<test name="TC15.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1504"/></methods></class></classes></test>  
+   	<test name="TC16.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1601"/></methods></class></classes></test> 
+	<test name="TC16.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1602"/></methods></class></classes></test>
+	<test name="TC16.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1603"/></methods></class></classes></test> 
+	<test name="TC16.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1604"/></methods></class></classes></test>	
+	<test name="TC17.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1701"/></methods></class></classes></test> 
+	<test name="TC17.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1702"/></methods></class></classes></test>  	 
+	<test name="TC17.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1703"/></methods></class></classes></test>    
+	<test name="TC17.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1704"/></methods></class></classes></test> 
+	<test name="TC17.05"><classes><class name="testcases.TestCases"><methods><include name="test_TC1705"/></methods></class></classes></test>     			
+	<test name="TC17.06"><classes><class name="testcases.TestCases"><methods><include name="test_TC1706"/></methods></class></classes></test>	
+	<test name="TC17.07"><classes><class name="testcases.TestCases"><methods><include name="test_TC1707"/></methods></class></classes></test> 
+	<test name="TC17.09"><classes><class name="testcases.TestCases"><methods><include name="test_TC1709"/></methods></class></classes></test> 
+	<test name="TC17.10"><classes><class name="testcases.TestCases"><methods><include name="test_TC1710"/></methods></class></classes></test>  
+ 	<test name="TC17.11"><classes><class name="testcases.TestCases"><methods><include name="test_TC1711"/></methods></class></classes></test> 
+	<test name="TC17.12"><classes><class name="testcases.TestCases"><methods><include name="test_TC1712"/></methods></class></classes></test> 
+	<test name="TC18.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1801"/></methods></class></classes></test>	
+ 	<test name="TC18.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1802"/></methods></class></classes></test> 
+	<test name="TC18.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1803"/></methods></class></classes></test> 
+	<test name="TC18.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1804"/></methods></class></classes></test>  	
+	<test name="TC18.05"><classes><class name="testcases.TestCases"><methods><include name="test_TC1805"/></methods></class></classes></test>  
+	<test name="TC18.06"><classes><class name="testcases.TestCases"><methods><include name="test_TC1806"/></methods></class></classes></test> 
+	<test name="TC18.07"><classes><class name="testcases.TestCases"><methods><include name="test_TC1807"/></methods></class></classes></test>		
+	<test name="TC18.09"><classes><class name="testcases.TestCases"><methods><include name="test_TC1809"/></methods></class></classes></test>	  
+	<test name="TC18.10"><classes><class name="testcases.TestCases"><methods><include name="test_TC1810"/></methods></class></classes></test> 	
+	<test name="TC18.11"><classes><class name="testcases.TestCases"><methods><include name="test_TC1811"/></methods></class></classes></test> 	
+	<test name="TC18.12"><classes><class name="testcases.TestCases"><methods><include name="test_TC1812"/></methods></class></classes></test>    	 
+  	<test name="TC19.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC1901"/></methods></class></classes></test>
+	<test name="TC19.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC1902"/></methods></class></classes></test>		   
+   	<test name="TC19.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC1903"/></methods></class></classes></test> 	  
+	<test name="TC19.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC1904"/></methods></class></classes></test>   
+ 	<test name="TC19.05"><classes><class name="testcases.TestCases"><methods><include name="test_TC1905"/></methods></class></classes></test>	 
+ 	<test name="TC19.06"><classes><class name="testcases.TestCases"><methods><include name="test_TC1906"/></methods></class></classes></test>
+ 	<test name="TC20.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC2001"/></methods></class></classes></test>
+ 	<test name="TC20.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC2002"/></methods></class></classes></test> 
+ 	<test name="TC20.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC2003"/></methods></class></classes></test> 	
+ 	<test name="TC20.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC2004"/></methods></class></classes></test>	
+ 	<test name="TC20.05"><classes><class name="testcases.TestCases"><methods><include name="test_TC2005"/></methods></class></classes></test>  	
+ 	<test name="TC20.06"><classes><class name="testcases.TestCases"><methods><include name="test_TC2006"/></methods></class></classes></test> 
+	<test name="TC21.01"><classes><class name="testcases.TestCases"><methods><include name="test_TC2101"/></methods></class></classes></test> 
+    <test name="TC21.02"><classes><class name="testcases.TestCases"><methods><include name="test_TC2102"/></methods></class></classes></test>	
+   	<test name="TC21.03"><classes><class name="testcases.TestCases"><methods><include name="test_TC2103"/></methods></class></classes></test> 	
+ 	<test name="TC21.04"><classes><class name="testcases.TestCases"><methods><include name="test_TC2104"/></methods></class></classes></test>	  		 	  		  
+
+</suite> <!-- Suite -->
+
+
+
